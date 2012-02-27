@@ -12,9 +12,9 @@ if($argc >= 2){
 }
 if($command == 'help'){
 	$text = "
-tpm help	display this info
-tpm update	update libs
-tpm status	show status";
+tpm help	
+tpm update	
+tpm status	";
 	echo $text . PHP_EOL . PHP_EOL;
 }else if($command == 'update'){
 	command_update();
